@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Inter', sans-serif;
+}
+body{
+    margin: 2rem;
+}
+
+.second{
+    display: none;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 0.6rem 2.5rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.top-section{
+    height: 100px;
+}
+.top-up,.top-down{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    height: 20px;
+    padding: 1rem;
+}
+
+.top-up p,.top-down p{
+    font-weight: bold;
+    width: 3000px;
+}
+
+.search-btn{
+    position: relative;
+    width: 99%;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 0.5rem;
+}
+#search{
+    width: 95%;
+    border: none;
+    outline: none;
+    padding: 0 0 0 2rem;
+    margin: 0 1.5rem 0 0;
+}
+input::placeholder{
+    font-weight: 500;
+    color: black;
+}
+
+.search-icon{
+    position: absolute;
+    top: 15%;
+}
+
+.postOffice-data{
+    border: 2px solid black;
+    margin-top: 1rem;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 1.5rem;
+
+}
+.item{
+    border: 2px solid black;
+    padding: 1.5rem;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.Map{
+    width: 95%;
+    height: 400px;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+.details{
+    border: 2px solid #000;
+    margin: 1rem 0 1rem 0;
+    height: 150px;
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+}
+.details p{
+    font-weight: bold;
+}
